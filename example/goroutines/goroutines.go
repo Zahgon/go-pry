@@ -1,14 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"github.com/d4l3k/go-pry/pry"
 	"time"
+
+	"github.com/d4l3k/go-pry/pry"
 )
 
-func prying() {
-	fmt.Println("PRYING!")
-}
+func prying() { _ = "STUB: not implemented"; return }
 
 func main() {
 	c := make(chan bool)

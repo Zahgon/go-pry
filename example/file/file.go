@@ -12,18 +12,14 @@ import (
 	Block Quote
 */
 
-func X() bool {
-	return true
-}
+func X() bool { _ = "STUB: not implemented"; return false }
 
 type Banana struct {
 	Name string
 	Cake []int
 }
 
-func (b Banana) Ly() string {
-	return b.Name + "ly"
-}
+func (b Banana) Ly() string { _ = "STUB: not implemented"; return "" }
 
 func main() {
 	a := 1

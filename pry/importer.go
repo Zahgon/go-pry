@@ -3,8 +3,6 @@ package pry
 import (
 	"go/ast"
 	"go/types"
-
-	"github.com/pkg/errors"
 )
 
 // JSImporter contains all the information needed to implement a types.Importer
@@ -15,9 +13,6 @@ type JSImporter struct {
 }
 
 func (i *JSImporter) Import(path string) (*types.Package, error) {
-	p, ok := i.packages[path]
-	if !ok {
-		return nil, errors.Errorf("package %q not found", path)
-	}
-	return p, nil
+	_ = "STUB: not implemented"
+	return nil, nil
 }

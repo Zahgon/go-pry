@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/d4l3k/go-pry/pry"
 	"math"
+
+	"github.com/d4l3k/go-pry/pry"
 )
 
 func main() {

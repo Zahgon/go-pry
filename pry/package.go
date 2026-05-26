@@ -6,15 +6,6 @@ type Package struct {
 	Functions map[string]interface{}
 }
 
-func (p Package) Keys() []string {
-	var keys []string
-	for k := range p.Functions {
-		keys = append(keys, k)
-	}
-	return keys
-}
+func (p Package) Keys() []string { _ = "STUB: not implemented"; return nil }
 
-func (p Package) Get(key string) (interface{}, bool) {
-	v, ok := p.Functions[key]
-	return v, ok
-}
+func (p Package) Get(key string) (interface{}, bool) { _ = "STUB: not implemented"; return nil, false }
